@@ -12,6 +12,7 @@ header {
     position: sticky;
     top: 0px;
     z-index: 1;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 
 body {
@@ -72,6 +73,7 @@ footer>ul{
     flex-grow: 1;
     flex-flow: column;
 }
+
 
 footer>ul>li{
     display: flex;

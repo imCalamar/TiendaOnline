@@ -31,18 +31,41 @@ main {
     display: flex;
     font-size: 2rem;
     justify-content: center;
+    padding: 1rem;
 }
 
 nav {
     display: flex;
     flex-flow: row;
-    font-size: 1.5rem;    
+    font-size: 1.5rem;  
 }
 
-nav>p {
+nav>* {
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    color: hwb(213 4% 73% / 0.781);
+    padding: 1rem;
+}
+
+nav>a {
+    text-decoration: none;
+    overflow: auto;
+}
+
+nav>a:visited {
+    color: hsl(213, 73%, 16%);
+}
+
+nav>a:hover, nav>a:focus{
+    background-color: #a7b5c2;
+}
+
+.destacados {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 2rem;
 }
 
 .contenido {
@@ -84,7 +107,7 @@ footer>ul>li>p {
     font-size: 1.5rem;
 }
 
-a {
+footer>ul>li>a {
     color: #eef4ed;
     text-decoration: none;
 }
